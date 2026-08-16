@@ -39,6 +39,6 @@ I didn't write this flake, just edited two lines to make it work standalone and 
 
 ### Why this code isn't in omnisearch repo?
 
-I sent an email to omnisearch maintainer that contained the patch to fix `flake.lock` so it works and after 4 weeks they removed nix support TwT (I mean that's quite understandable, making your project work for some weird complitelly-different-from-the-others-distros distro can be quite painfull, so that's ok, lol :P)
+I sent an email to omnisearch maintainer that contained the patch to fix `flake.lock` so it works and after 4 weeks they dropped nix support TwT (I mean that's quite understandable, making your project work for some weird complitelly-different-from-the-others-distros distro can be quite painfull, so that's ok, lol :P)
 
 So since all nix code was removed from the repo, I took it to upload on Github 👍
