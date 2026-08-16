@@ -35,9 +35,9 @@ Find all the avalible options in module.nix
 
 ## Who wrote this flake?
 
-I didn't write this flake, just edited two lines to make it work standalone and updated `flake.lock` all credits does to whatever person/persons who wrote this.
+I didn't write this flake, just edited two lines to make it work standalone and updated `flake.lock` all credits goes to whatever person/persons who wrote this.
 
-### But what happened?
+### Why this code isn't in omnisearch repo?
 
 I sent an email to omnisearch maintainer that contained the patch to fix `flake.lock` so it works and after 4 weeks they removed nix support TwT (I mean that's quite understandable, making your project work for some weird complitelly-different-from-the-others-distros distro can be quite painfull, so that's ok, lol :P)
 
