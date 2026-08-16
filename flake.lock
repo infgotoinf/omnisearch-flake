@@ -1,0 +1,63 @@
+{
+  "nodes": {
+    "beaker-src": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1780436704,
+        "narHash": "sha256-3aMH1YblnpiXKdkQVMRLmMZ5/8G7vB4HAfLg7+izyHg=",
+        "ref": "refs/heads/master",
+        "rev": "360d6271e1a20d128430e52637d5d35f4c706ca5",
+        "revCount": 34,
+        "shallow": false,
+        "type": "git",
+        "url": "https://git.bwaaa.monster/beaker"
+      },
+      "original": {
+        "shallow": false,
+        "type": "git",
+        "url": "https://git.bwaaa.monster/beaker"
+      }
+    },
+    "nixpkgs": {
+      "locked": {
+        "lastModified": 1786599213,
+        "narHash": "sha256-yNJd40f11EzXBjSByCB7IPpeFFAdeoSKKM67dGkfFoU=",
+        "owner": "NixOS",
+        "repo": "nixpkgs",
+        "rev": "0e251e24a4f24e036a084b6b4b2d2491af4167f4",
+        "type": "github"
+      },
+      "original": {
+        "owner": "NixOS",
+        "ref": "nixos-unstable",
+        "repo": "nixpkgs",
+        "type": "github"
+      }
+    },
+    "omnisearch-src": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1785819301,
+        "narHash": "sha256-+GmvM4UfvyYplB5t4yOOmaNAiZJnEWp5mDfr4BXWJ3Y=",
+        "ref": "refs/heads/master",
+        "rev": "499bb9b1268cd422619efdc46889960425462aae",
+        "revCount": 136,
+        "type": "git",
+        "url": "https://git.bwaaa.monster/omnisearch"
+      },
+      "original": {
+        "type": "git",
+        "url": "https://git.bwaaa.monster/omnisearch"
+      }
+    },
+    "root": {
+      "inputs": {
+        "beaker-src": "beaker-src",
+        "nixpkgs": "nixpkgs",
+        "omnisearch-src": "omnisearch-src"
+      }
+    }
+  },
+  "root": "root",
+  "version": 7
+}
